@@ -65,5 +65,4 @@ app.get("/restart", async function (req, res) {
         });
     });
 });
-
-console.log('Server running at http://127.0.0.1:8081/'); 
+app.listen(process.env.PORT,()=>console.log(`Server running at http://127.0.0.1:${process.env.PORT}/`))
