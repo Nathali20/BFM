@@ -1,32 +1,32 @@
 body{
-    background-color: cornsilk;
-    font-size: 20px;
+    font-size: 12px;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.game-title{
-  width: 80%;
-  background-color: #dbc70ed6;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
+.title{
+  width: 100%;
+  background-color: #dbc7;
+  color: rgb(0, 0, 0);
 }
 
-.game-title h1{
-  width: 50%;
+.title h1{
+  width: 30%;
   margin: 0.5em auto;
 }
-.game-description{
-  width: 80%;
-  margin: 1em 0 3em 0;
-  border: solid #dbc70ed6;
-  padding: 0.8em;
-  border-radius: 4px;
+.descr{
+  width: 50%;
+  height: 60%;
+  margin: 3em 0 3em 0;
+  border: solid;
+  background-color: #301810;
+  padding: 1.8em;
+  border-radius: 24px;
+  color: white;
+  font-weight: lighter;
 }
-.game-body{
+.game-part{
  width: 80%;
 }
 .name-and-gender{
@@ -44,31 +44,31 @@ body{
 
   .name-and-gender input, select {
     display: block;
-    width: 100%;
+    width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
-    border-radius: 4px;
     box-sizing: border-box;
-    font-size: inherit;
+  
   }
 
   input[type=submit],[type=button]  {
     display: block;
     width: 30%;
     margin: auto;
-    background-color: #dbc70ed6;
-    color: white;
+    background-color: #dbc7;
+    color: black;
     padding: 14px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    font-size: larger;
-    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+
 
   }
   input[type=button]{
-    background-color: black;
+    background-color: rgb(148, 148, 148);
 
   }
   .score-and-submits{
