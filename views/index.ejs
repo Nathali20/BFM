@@ -5,31 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel= "stylesheet" href="/css/style.css"/>
-    <title>A simple gender reveal game</title>
+    <title>Gender Reveal game</title>
 </head>
 <body class="body">
     <%  FAILURE_SCORE=0, WIN_SCORE = 20, INITIAL_SCORE = 10 %>
-    <div class="game-title">
+    <div class="title">
         <h1> Welcome to my Gender Reveal Game</h1>
     </div>
     
-    <div class="game-description">
+    <div class="descr">
         <% if(score === INITIAL_SCORE && !gameHasStarted
         ){ %>
-            <h2>The game has started, the goal is to reach 20 points !</h2>
-            <h2>In case you choose a wrong gender, you loose a point, instead you win one. Let's go!!! </h2>
+            <h2>Try to guess the gender of the names that will be shown, you will start with a socre of 10, if the socre becomes 0 you have lost, and if the socre becomes 20 you won, Good Luck!</h2>        
         <% } else if(score < WIN_SCORE && (score > 0) ){ %>
-            <h2>The goal is to reach 20 points!</h2>
         <% } else if (score === FAILURE_SCORE){ %>
             <h1>You have missed! Persist!!!</h1>
         <% } else {%>
              <h1>Congratulations, you have won!!!! </h1>
-        <% } %>
-        
-        
+        <% } %>      
     </div>
 
-    <div class="game-body">
+    <div class="game-part">
         <form action="/" method="POST">
 
             <div class="score">
@@ -39,10 +35,9 @@
 
             <div class="name-and-gender">
                 <div class="name">
-                    <label for= "fName">First Name</label>
+                    <label for= "fName">Name</label>
                     <input type="text" id="fName" name="firstname" value=<%= randomFirstName %>> 
-                </div>
-    
+                </div>    
                 <div class="gender">
                     <label for= "gender">Gender</label>
                     <select id="gender" name="gender" required  oninvalid="this.setCustomValidity('Please select one of the options given')"
@@ -50,29 +45,18 @@
                         <option value="" selected data-default >Please select a gender</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
-                        <option value="mixed">Mixed</option>
                     </select>
                 </div>
             </div>
-
-
            <div class="buttons">
-
             <% if(score < 20 && (score > 0) ){ %>
-                
                 <input type="submit" value="Validate"> 
             <% } %>
-
             <% if(score == 20 || (score ==0) ){ %>
                 <a href="/restart"> <input type="button" value="Restart the game"> </a>
-                
             <% } %>
-            
-
            </div>
-
         </form>
     </div>
-
 </body>
 </html>
