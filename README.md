@@ -2,10 +2,6 @@
 
 # **A simple gender reveal game app**
 
-**Author** 
-
-  GIHOZO Nathalie 
-
 
 **Project Description**
 
@@ -13,6 +9,7 @@
 
   The user will start with a capital of **10 points**, if he gets the gender wrong answer, he loses a point else he will gain one, and if the user gets to **0           points**, he has   lost. If he gets to **20 points**, he has won and may decide to restart the game in the two cases. 
   
+
 
 **Technologies used** 
 
@@ -22,9 +19,10 @@
   Back-end: **Node.js** (Express.js), **MongoDB** (database). 
 
 
-**Installation of Gender API library**
 
-  *npm install gender-api/client*  
+**Installation of Gender API library:**
+
+    npm install gender-api/client
 
  
 **Run the program** 
@@ -32,11 +30,20 @@
   Install the nodeJs free software platform with its dependencies [via this link](https://nodejs.org/en/download/package-manager/)
  
   After installing your NodeJs application with its dependencies, get into the directory using: 
-    
-    *cd BFM (name of the directory)*
+  
+    cd BFM (name of the directory)
 
   In the project directory, you will have to run :  
     
-    *npm start/run* 
+    npm start/run
 
 this command runs the app in the development mode. You can access it by using http://localhost:3001 to view it in your browser In order to start playing. 
+
+
+
+# **Author** 
+
+  ***GIHOZO Nathalie*** 
+  
+  
+<img src="C:\Users\gihoz\Pictures\273587278_5805137732847290_4671750873050589159_n.jpg" width="200">
