@@ -29,12 +29,14 @@
  
 **Run the program** 
 
-  Install the nodeJs free software platform with its dependencies [via this link]([http://github.com](https://nodejs.org/en/download/package-manager/)
+  Install the nodeJs free software platform with its dependencies [via this link](https://nodejs.org/en/download/package-manager/)
  
   After installing your NodeJs application with its dependencies, get into the directory using: 
+    
     *cd BFM (name of the directory)*
 
   In the project directory, you will have to run :  
+    
     *npm start/run* 
 
 this command runs the app in the development mode. You can access it by using http://localhost:3001 to view it in your browser In order to start playing. 
