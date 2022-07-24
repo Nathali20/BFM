@@ -11,6 +11,8 @@
   
 
 
+
+
 **Technologies used** 
 
   To perform this technical test, I used various technologies : 
@@ -20,9 +22,14 @@
 
 
 
+
+
 **Installation of Gender API library:**
 
     npm install gender-api/client
+
+
+
 
  
 **Run the program** 
@@ -43,7 +50,21 @@ this command runs the app in the development mode. You can access it by using ht
 
 # **Author** 
 
-  ***GIHOZO Nathalie*** 
+  **Names:** *GIHOZO Nathalie*
+  
+  **E-mail:** *gihozo_n@etna-alternance.net*
+  
+  **location:** *Ile-de-France*
   
   
-<img src="C:\Users\gihoz\Pictures\273587278_5805137732847290_4671750873050589159_n.jpg" width="200">
+<img src="https://github.com/Nathali20/BFM/blob/main/public/273587278_5805137732847290_4671750873050589159_n.jpg" width="200">
+
+
+  # ***Links***
+  
+  **[LinkedIn](linkedin.com/in/gihozo-nathalie-884693169/)**
+  
+  **[Github]( https://github.com/Nathali20/)**
+  
+  **[Instagram](https://www.instagram.com/g.i.h.o.z.0/)**
+
