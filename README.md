@@ -1,6 +1,6 @@
-#Test technique
+# Test technique
 
-#**A simple gender reveal game app**
+# **A simple gender reveal game app**
 
 **Author** 
 
@@ -29,7 +29,7 @@
  
 **Run the program** 
 
-  Install the nodeJs free software platform with its dependencies [via this link] (https://nodejs.org/en/download/package-manager/) 
+  Install the nodeJs free software platform with its dependencies [via this link]([http://github.com](https://nodejs.org/en/download/package-manager/)
  
   After installing your NodeJs application with its dependencies, get into the directory using: 
     *cd BFM (name of the directory)*
